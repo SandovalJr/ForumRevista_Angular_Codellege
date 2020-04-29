@@ -117,7 +117,7 @@ header {
 /* IMAGEN RECTANGULO */
 
 .imagen {
-  width: 98%;
+  width: 99%;
   height: 50vh;
   background: url("../src/assets/img/ciudad.jpg");
   background-size: cover;
@@ -163,3 +163,78 @@ header {
   margin-left: 1%;
   margin-top: 3%;
 }
+
+#separaciones {
+  display: inline-block;
+  width: 98%;
+  height: 100%;
+  display: flex;
+  padding: 1%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* TARJETA ROSA */
+#separacion1 {
+  background: #cd0060;
+  margin: 25px 0px 0px -8px;
+  width: 67%;
+  height: 65vh;
+  display: flex;
+}
+
+#es {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+#online {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 10px 0px 0px 25px;
+  text-align: center;
+}
+
+#sepa_1_circulo {
+  border: white;
+  background-color: #ff0096;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 13px solid white;
+  top: 5vh;
+  left: 2vw;
+}
+
+#forum_1 {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 50px;
+  top: 34%;
+  left: 7.5%;
+}
+
+#sepa_2_radio {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  color: white;
+  top: 20vh;
+  font-size: 35px;
+  top: 58%;
+  left: 45%;
+}
+
+#verdad {
+  color: white;
+  font-family: "Zhi Mang Xing", cursive;
+  display: inline-block;
+  font-size: 20px;
+  margin: 65px 0px 0px 75px;
+}
+
+/* Tarjeta gris */
