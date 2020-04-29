@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from '../app/header/header.component';
 import { bodyComponent } from '../app/body/body.component';
 import { NavbarComponent } from '../app/navbar/navbar.component';
+import { RFComponent } from '../app/rectanguloForum/RF.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, bodyComponent, NavbarComponent],
+  declarations: [AppComponent, HeaderComponent, bodyComponent, NavbarComponent,RFComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
