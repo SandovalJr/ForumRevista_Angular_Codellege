@@ -164,6 +164,8 @@ header {
   margin-top: 3%;
 }
 
+/* Tarjeta */
+
 #separaciones {
   display: inline-block;
   width: 98%;
@@ -174,27 +176,72 @@ header {
   align-items: flex-end;
 }
 
-/* TARJETA ROSA */
 #separacion1 {
   background: #cd0060;
-  margin: 25px 0px 0px -8px;
-  width: 67%;
+  margin: 30px 0px 0px -8px;
+  width: 23%;
   height: 65vh;
   display: flex;
 }
 
-#es {
-  font-size: 25px;
-  color: white;
-  text-align: center;
-  margin-top: 10%;
+#separacion2 {
+  background-color: #494949;
+  width: 23%;
+  height: 65vh;
+  margin: auto;
+  margin: 30px 0px 0px 28px;
+  display: flex;
 }
+
+#separacion3 {
+  width: 23%;
+  height: 65vh;
+  background-size: cover;
+  background-position: center center;
+  margin: 30px 0px 0px 28px;
+  display: flex;
+}
+
+.separacion3 > .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 20vw;
+  height: 21.2vh;
+  display: block;
+  border: 2px solid #ffffff;
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+#separacion4 {
+  background-image: url(../src/assets/img/hoja.jpg);
+  width: 23%;
+  height: 65vh;
+  margin: auto;
+  background-position: center center;
+  margin: 30px 0px 0px 28px;
+  display: flex;
+}
+
+#separacion1 > h1 > p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  margin: 10px 0px 0px 30px;
+}
+
 #online {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
-  color: white;
-  margin: 10px 0px 0px 25px;
-  text-align: center;
+  margin: 10px 0px 0px 80px;
 }
 
 #sepa_1_circulo {
@@ -210,15 +257,6 @@ header {
   left: 2vw;
 }
 
-#forum_1 {
-  position: absolute;
-  font-family: "Raleway", sans-serif;
-  color: white;
-  font-size: 50px;
-  top: 34%;
-  left: 7.5%;
-}
-
 #sepa_2_radio {
   font-family: "Raleway", sans-serif;
   position: absolute;
@@ -226,7 +264,16 @@ header {
   top: 20vh;
   font-size: 35px;
   top: 58%;
-  left: 45%;
+  left: 50%;
+}
+
+#forum_1 {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 60px;
+  top: 34%;
+  left: 7.5%;
 }
 
 #verdad {
@@ -237,4 +284,158 @@ header {
   margin: 65px 0px 0px 75px;
 }
 
-/* Tarjeta gris */
+#forum_separacion_2 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: 25px 0px 0px 100px;
+}
+
+#o_separacion_2 {
+  color: greenyellow;
+}
+
+#separacion2 > h1 > p {
+  display: inline-block;
+  margin: 5px 0px 0px 130px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#circulo_2 {
+  position: relative;
+  border: 10px solid greenyellow;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: inline-block;
+  top: 3%;
+  left: 20%;
+}
+
+#texto_circulo_2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  margin: 60px 0px 0px 11px;
+}
+
+#texto_circulo_2_emprendedores {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  margin: -10px 0px 0px 22px;
+}
+
+#texto_separacion2 {
+  color: white;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  margin: 25px 10px 0px 10px;
+  text-align: center;
+}
+
+#revista_forum_separacion2 {
+  color: greenyellow;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  margin: 0px 10px 0px 110px;
+}
+
+#texto_final_separacion2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px 10px 0px -25px;
+}
+
+#revista_separacion4 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  margin: 30px 0px 0px 70px;
+}
+
+#F_RUM_separacion4 {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  color: white;
+  margin: 0px 0px 0px 47px;
+}
+
+#O_separacion4 {
+  color: yellowgreen;
+  display: inline-block;
+  margin: 0px 0px 0px -10px;
+}
+
+#contactanos {
+  color: yellowgreen;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 20.5%;
+  margin-top: 5%;
+}
+
+#email {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 21.5%;
+  margin-top: 10%;
+}
+
+#e_sando {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin-left: 21.5%;
+  margin-top: 2%;
+}
+
+#telefono {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 21.5%;
+  margin-top: 8%;
+}
+
+#num {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin-left: 21.5%;
+  margin-top: 2%;
+}
+
+#dir {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 21.5%;
+  margin-top: 8%;
+}
+
+#av_uni {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin-left: 21.5%;
+  margin-top: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */

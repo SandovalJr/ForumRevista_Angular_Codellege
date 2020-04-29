@@ -11,6 +11,10 @@ import { RFComponent } from '../app/rectanguloForum/RF.component';
 // tarjetas
 import { TarjetaComponente } from '../app/Tarjetas/tarjetas.component';
 import { TarjetaRosaComponent } from '../app/Tarjetas/TarjetaRosa/tarjetaRosa.component';
+import { TarjetaGrisComponent } from '../app/Tarjetas/TarjetaGris/tarjetaGris.component';
+import { TarjetaBlancaComponent } from '../app/Tarjetas/TarjetaBlanca/tarjetaBlanca.component';
+import { TarjetaVerdeComoponent } from "../app/Tarjetas/TarjetaVerde/tarjetaVerde.component";
+
 
 @NgModule({
   declarations: [
@@ -21,6 +25,9 @@ import { TarjetaRosaComponent } from '../app/Tarjetas/TarjetaRosa/tarjetaRosa.co
     RFComponent,
     TarjetaComponente,
     TarjetaRosaComponent,
+    TarjetaGrisComponent,
+    TarjetaBlancaComponent,
+    TarjetaVerdeComoponent
   ],
   imports: [BrowserModule],
   providers: [],
