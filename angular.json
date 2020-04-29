@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ForumRevista"
+    }
+  },
+  "defaultProject": "ForumRevista",
+  "cli": {
+    "analytics": false
+  }
 }
