@@ -54,7 +54,7 @@ header {
   font-size: 20px;
   color: green;
   margin-left: 190px;
-  margin-top: -15px;
+  margin-top: -24px;
 }
 
 /* NAVBAR */
@@ -85,6 +85,10 @@ header {
   text-decoration: none;
   background-color: greenyellow;
   font-size: 20px;
+}
+
+.botones a:hover {
+  color: tomato;
 }
 
 #fecha {
