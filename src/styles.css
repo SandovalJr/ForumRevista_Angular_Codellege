@@ -178,7 +178,7 @@ header {
 
 #separacion1 {
   background: #cd0060;
-  margin: 30px 0px 0px -8px;
+  margin: 30px 0px 0px -6px;
   width: 134%;
   height: 65vh;
   display: flex;
@@ -186,19 +186,19 @@ header {
 
 #separacion2 {
   background-color: #494949;
-  width: 48%;
+  width: 46%;
   height: 65vh;
   margin: auto;
-  margin: 30px 0px 0px 115px;
+  margin: 30px 0px 0px 150px;
   display: flex;
 }
 
 #separacion3 {
-  width: 23%;
+  width: 30%;
   height: 65vh;
   background-size: cover;
   background-position: center center;
-  margin: 30px 0px 0px -75%;
+  margin: 30px 0px 0px -60%;
   display: flex;
 }
 
@@ -223,11 +223,11 @@ img:hover {
 
 #separacion4 {
   background-image: url(../src/assets/img/hoja.jpg);
-  width: 23%;
+  width: 150%;
   height: 65vh;
   margin: auto;
   background-position: center center;
-  margin: 30px 0px 0px 28px;
+  margin: 30px 0px 0px -50%;
   display: flex;
 }
 
