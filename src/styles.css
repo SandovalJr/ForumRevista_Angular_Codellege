@@ -168,7 +168,7 @@ header {
 
 #separaciones {
   display: inline-block;
-  width: 98%;
+  width: 100%;
   height: 100%;
   display: flex;
   padding: 1%;
@@ -179,17 +179,18 @@ header {
 #separacion1 {
   background: #cd0060;
   margin: 30px 0px 0px -8px;
-  width: 23%;
+  width: 134%;
   height: 65vh;
   display: flex;
 }
 
+
 #separacion2 {
   background-color: #494949;
-  width: 23%;
+  width: 48%;
   height: 65vh;
   margin: auto;
-  margin: 30px 0px 0px 28px;
+  margin: 30px 0px 0px 100px;
   display: flex;
 }
 
@@ -264,14 +265,14 @@ img:hover {
   top: 20vh;
   font-size: 35px;
   top: 58%;
-  left: 50%;
+  left: 45%;
 }
 
 #forum_1 {
   position: absolute;
   font-family: "Raleway", sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 55px;
   top: 34%;
   left: 7.5%;
 }
@@ -318,7 +319,7 @@ img:hover {
 #texto_circulo_2 {
   color: white;
   font-family: "Raleway", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   display: inline-block;
   margin: 60px 0px 0px 11px;
 }
@@ -327,8 +328,8 @@ img:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   display: inline-block;
-  font-size: 20px;
-  margin: -10px 0px 0px 22px;
+  font-size: 15px;
+  margin: -20px 0px 0px 30px;
 }
 
 #texto_separacion2 {
